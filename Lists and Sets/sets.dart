@@ -9,10 +9,14 @@
 void main(){
 
   //Adding type explicitly 
-  Set<String> names = {"smith", "robert", "mario", "smith"};
+  Set<String> names = {"smith", "robert", "mario"};
 
   names.add("shawn");
+  names.add("smith"); //smith won't be added to the set
 
   print(names); 
 
 }
+
+//Duplicate values don't give any errors or something, they just don't get added in the sets
+
