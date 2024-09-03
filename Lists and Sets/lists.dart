@@ -19,6 +19,11 @@ void main(){
 
 
   print(scores);
+  print(scores.length);
+
+  // scores.shuffle();
+  print(scores.indexOf(89));
+
 
 }
 
